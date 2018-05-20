@@ -58,12 +58,13 @@ class ViewController: UIViewController {
             self.questionTextView.isEditable = false
             self.questionTextView.attributedText = questionAttributedString
             self.questionTextView.sizeToFit()
+            self.questionTextView.font = .systemFont(ofSize: 14)
             
             self.answerTextView.isScrollEnabled = false
             self.answerTextView.isEditable = false
             self.answerTextView.attributedText = answerAttributedString
             self.answerTextView.sizeToFit()
-            
+            self.answerTextView.font = .systemFont(ofSize: 14)
             
         })
 
