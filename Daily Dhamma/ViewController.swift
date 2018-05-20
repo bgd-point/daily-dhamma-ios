@@ -48,7 +48,13 @@ class ViewController: UIViewController {
             let questionAttributedString = try! NSAttributedString(data: questionHtmlData!, options: options, documentAttributes: nil)
             let answerAttributedString = try! NSAttributedString(data: answerHtmlData!, options: options, documentAttributes: nil)
             
-            // self.questionTextView.isScrollEnabled = false
+            let formatter : DateFormatter = DateFormatter()
+            formatter.dateFormat = "dd MMM yyyy"
+            let date : String = formatter.string(from: NSDate.init(timeIntervalSinceNow: 0) as Date)
+
+            self.dateLabel.text = date
+            
+            self.questionTextView.isScrollEnabled = false
             self.questionTextView.isEditable = false
             self.questionTextView.attributedText = questionAttributedString
             self.questionTextView.sizeToFit()
