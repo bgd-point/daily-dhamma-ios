@@ -15,6 +15,10 @@
 		01BF44ED20B122BF00894645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BF44EB20B122BF00894645 /* LaunchScreen.storyboard */; };
 		01BF44F820B122C000894645 /* Daily_DhammaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BF44F720B122C000894645 /* Daily_DhammaTests.swift */; };
 		01BF450320B122C000894645 /* Daily_DhammaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BF450220B122C000894645 /* Daily_DhammaUITests.swift */; };
+		01BF451120B122FF00894645 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01BF451020B122FF00894645 /* GoogleService-Info.plist */; };
+		7548E6DF6860A3A6C2814872 /* Pods_Daily_DhammaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAEE1100356837279191033 /* Pods_Daily_DhammaUITests.framework */; };
+		7BF0EE852EF464D51C35B93B /* Pods_Daily_DhammaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908ABD83587A1CA2C7C9A865 /* Pods_Daily_DhammaTests.framework */; };
+		8D0A015EDA8AECADD6947D66 /* Pods_Daily_Dhamma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB854FC916D29CF442891843 /* Pods_Daily_Dhamma.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,16 @@
 		01BF44FE20B122C000894645 /* Daily DhammaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daily DhammaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01BF450220B122C000894645 /* Daily_DhammaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily_DhammaUITests.swift; sourceTree = "<group>"; };
 		01BF450420B122C000894645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01BF451020B122FF00894645 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0CC4E9049973ACA7C140DCE9 /* Pods-Daily Dhamma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily Dhamma.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Daily Dhamma/Pods-Daily Dhamma.debug.xcconfig"; sourceTree = "<group>"; };
+		4F59ECCA74CEA032D33BF833 /* Pods-Daily DhammaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily DhammaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Daily DhammaTests/Pods-Daily DhammaTests.release.xcconfig"; sourceTree = "<group>"; };
+		54612FE3598BB56A1616814D /* Pods-Daily DhammaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily DhammaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Daily DhammaTests/Pods-Daily DhammaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		908ABD83587A1CA2C7C9A865 /* Pods_Daily_DhammaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daily_DhammaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96AC8C9805A238FD21B2AB2B /* Pods-Daily DhammaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily DhammaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Daily DhammaUITests/Pods-Daily DhammaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A6CDBEE237A564142B1923DC /* Pods-Daily DhammaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily DhammaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Daily DhammaUITests/Pods-Daily DhammaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6550A236446EB318DF70890 /* Pods-Daily Dhamma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily Dhamma.release.xcconfig"; path = "Pods/Target Support Files/Pods-Daily Dhamma/Pods-Daily Dhamma.release.xcconfig"; sourceTree = "<group>"; };
+		DCAEE1100356837279191033 /* Pods_Daily_DhammaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daily_DhammaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB854FC916D29CF442891843 /* Pods_Daily_Dhamma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daily_Dhamma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D0A015EDA8AECADD6947D66 /* Pods_Daily_Dhamma.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BF0EE852EF464D51C35B93B /* Pods_Daily_DhammaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7548E6DF6860A3A6C2814872 /* Pods_Daily_DhammaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				01BF44F620B122C000894645 /* Daily DhammaTests */,
 				01BF450120B122C000894645 /* Daily DhammaUITests */,
 				01BF44DD20B122BF00894645 /* Products */,
+				A1FBE2E2C50955A25E42835B /* Pods */,
+				2A94B9BF07A1988DBBBD110E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +118,7 @@
 		01BF44DE20B122BF00894645 /* Daily Dhamma */ = {
 			isa = PBXGroup;
 			children = (
+				01BF451020B122FF00894645 /* GoogleService-Info.plist */,
 				01BF44DF20B122BF00894645 /* AppDelegate.swift */,
 				01BF44E120B122BF00894645 /* ViewController.swift */,
 				01BF44E320B122BF00894645 /* Main.storyboard */,
@@ -128,6 +148,29 @@
 			path = "Daily DhammaUITests";
 			sourceTree = "<group>";
 		};
+		2A94B9BF07A1988DBBBD110E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB854FC916D29CF442891843 /* Pods_Daily_Dhamma.framework */,
+				908ABD83587A1CA2C7C9A865 /* Pods_Daily_DhammaTests.framework */,
+				DCAEE1100356837279191033 /* Pods_Daily_DhammaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1FBE2E2C50955A25E42835B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CC4E9049973ACA7C140DCE9 /* Pods-Daily Dhamma.debug.xcconfig */,
+				D6550A236446EB318DF70890 /* Pods-Daily Dhamma.release.xcconfig */,
+				54612FE3598BB56A1616814D /* Pods-Daily DhammaTests.debug.xcconfig */,
+				4F59ECCA74CEA032D33BF833 /* Pods-Daily DhammaTests.release.xcconfig */,
+				A6CDBEE237A564142B1923DC /* Pods-Daily DhammaUITests.debug.xcconfig */,
+				96AC8C9805A238FD21B2AB2B /* Pods-Daily DhammaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01BF450720B122C000894645 /* Build configuration list for PBXNativeTarget "Daily Dhamma" */;
 			buildPhases = (
+				F43AB3F041683780805887D1 /* [CP] Check Pods Manifest.lock */,
 				01BF44D820B122BF00894645 /* Sources */,
 				01BF44D920B122BF00894645 /* Frameworks */,
 				01BF44DA20B122BF00894645 /* Resources */,
+				3F990B5506435CC13C8D3B59 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01BF450A20B122C000894645 /* Build configuration list for PBXNativeTarget "Daily DhammaTests" */;
 			buildPhases = (
+				64DD48086A92928BE063C91D /* [CP] Check Pods Manifest.lock */,
 				01BF44EF20B122C000894645 /* Sources */,
 				01BF44F020B122C000894645 /* Frameworks */,
 				01BF44F120B122C000894645 /* Resources */,
@@ -170,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01BF450D20B122C000894645 /* Build configuration list for PBXNativeTarget "Daily DhammaUITests" */;
 			buildPhases = (
+				88261A9C8280DBC5CAF524BB /* [CP] Check Pods Manifest.lock */,
 				01BF44FA20B122C000894645 /* Sources */,
 				01BF44FB20B122C000894645 /* Frameworks */,
 				01BF44FC20B122C000894645 /* Resources */,
@@ -233,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01BF44ED20B122BF00894645 /* LaunchScreen.storyboard in Resources */,
+				01BF451120B122FF00894645 /* GoogleService-Info.plist in Resources */,
 				01BF44EA20B122BF00894645 /* Assets.xcassets in Resources */,
 				01BF44E520B122BF00894645 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +301,85 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F990B5506435CC13C8D3B59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Daily Dhamma/Pods-Daily Dhamma-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Daily Dhamma/Pods-Daily Dhamma-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64DD48086A92928BE063C91D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Daily DhammaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88261A9C8280DBC5CAF524BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Daily DhammaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F43AB3F041683780805887D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Daily Dhamma-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		01BF44D820B122BF00894645 /* Sources */ = {
@@ -432,6 +559,7 @@
 		};
 		01BF450820B122C000894645 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CC4E9049973ACA7C140DCE9 /* Pods-Daily Dhamma.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,7 +569,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "red.point.Daily-Dhamma";
+				PRODUCT_BUNDLE_IDENTIFIER = red.point.dailydhamma;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,6 +578,7 @@
 		};
 		01BF450920B122C000894645 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6550A236446EB318DF70890 /* Pods-Daily Dhamma.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,7 +588,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "red.point.Daily-Dhamma";
+				PRODUCT_BUNDLE_IDENTIFIER = red.point.dailydhamma;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,6 +597,7 @@
 		};
 		01BF450B20B122C000894645 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54612FE3598BB56A1616814D /* Pods-Daily DhammaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +619,7 @@
 		};
 		01BF450C20B122C000894645 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F59ECCA74CEA032D33BF833 /* Pods-Daily DhammaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +641,7 @@
 		};
 		01BF450E20B122C000894645 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6CDBEE237A564142B1923DC /* Pods-Daily DhammaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +662,7 @@
 		};
 		01BF450F20B122C000894645 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96AC8C9805A238FD21B2AB2B /* Pods-Daily DhammaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
