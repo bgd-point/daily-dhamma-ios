@@ -102,9 +102,9 @@
                                 <rect key="frame" x="0.0" y="618" width="375" height="49"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
-                                    <tabBarItem systemItem="favorites" id="Sqc-GV-baM"/>
-                                    <tabBarItem title="Item" id="iJt-lt-zqA"/>
-                                    <tabBarItem systemItem="mostViewed" id="eWQ-4W-tAO"/>
+                                    <tabBarItem title="Daily" image="baseline_tag_faces_black_24pt" id="Sqc-GV-baM"/>
+                                    <tabBarItem title="List" image="baseline_book_black_24pt" id="iJt-lt-zqA"/>
+                                    <tabBarItem title="Random" image="baseline_loop_black_24pt" id="eWQ-4W-tAO"/>
                                 </items>
                             </tabBar>
                         </subviews>
@@ -134,4 +134,9 @@
             <point key="canvasLocation" x="31.199999999999999" y="59.820089955022496"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="baseline_book_black_24pt" width="24" height="24"/>
+        <image name="baseline_loop_black_24pt" width="24" height="24"/>
+        <image name="baseline_tag_faces_black_24pt" width="24" height="24"/>
+    </resources>
 </document>
