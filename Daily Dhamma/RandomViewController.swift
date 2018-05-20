@@ -1,8 +1,8 @@
 //
-//  ViewController.swift
+//  RandomViewController.swift
 //  Daily Dhamma
 //
-//  Created by Martien DT on 5/20/18.
+//  Created by Martien DT on 5/21/18.
 //  Copyright © 2018 Martien Dermawan Tanama. All rights reserved.
 //
 
@@ -10,15 +10,9 @@ import UIKit
 import Firebase
 import FirebaseDatabase
 
-class ViewController: UIViewController {
-    
-    @IBOutlet var dateLabel: UILabel!
-    
-    @IBOutlet var questionLabel: UILabel!
+class RandomViewController: UIViewController {
     
     @IBOutlet var questionTextView: UITextView!
-    
-    @IBOutlet var answerLabel: UILabel!
     
     @IBOutlet var answerTextView: UITextView!
     
@@ -44,11 +38,6 @@ class ViewController: UIViewController {
             let questionAttributedString = try! NSAttributedString(data: questionHtmlData!, options: options, documentAttributes: nil)
             let answerAttributedString = try! NSAttributedString(data: answerHtmlData!, options: options, documentAttributes: nil)
             
-            let formatter : DateFormatter = DateFormatter()
-            formatter.dateFormat = "dd MMM yyyy"
-            let date : String = formatter.string(from: NSDate.init(timeIntervalSinceNow: 0) as Date)
-
-            self.dateLabel.text = date
             
             self.questionTextView.isScrollEnabled = false
             self.questionTextView.isEditable = false
@@ -63,15 +52,13 @@ class ViewController: UIViewController {
             self.answerTextView.font = .systemFont(ofSize: 14)
             
         })
-
-
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
 

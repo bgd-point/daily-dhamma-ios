@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0102B9A320B2078900F5447B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0102B9A220B2078900F5447B /* ListViewController.swift */; };
+		01AB28D020B2012E00A736C5 /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AB28CF20B2012E00A736C5 /* RandomViewController.swift */; };
 		01BF44E020B122BF00894645 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BF44DF20B122BF00894645 /* AppDelegate.swift */; };
 		01BF44E220B122BF00894645 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BF44E120B122BF00894645 /* ViewController.swift */; };
 		01BF44E520B122BF00894645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BF44E320B122BF00894645 /* Main.storyboard */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0102B9A220B2078900F5447B /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		01AB28CF20B2012E00A736C5 /* RandomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
 		01BF44DC20B122BF00894645 /* Daily Dhamma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Dhamma.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01BF44DF20B122BF00894645 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01BF44E120B122BF00894645 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +130,8 @@
 				01BF44EB20B122BF00894645 /* LaunchScreen.storyboard */,
 				01BF44EE20B122BF00894645 /* Info.plist */,
 				01BF44E620B122BF00894645 /* Daily_Dhamma.xcdatamodeld */,
+				01AB28CF20B2012E00A736C5 /* RandomViewController.swift */,
+				0102B9A220B2078900F5447B /* ListViewController.swift */,
 			);
 			path = "Daily Dhamma";
 			sourceTree = "<group>";
@@ -387,6 +393,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				01BF44E220B122BF00894645 /* ViewController.swift in Sources */,
+				01AB28D020B2012E00A736C5 /* RandomViewController.swift in Sources */,
+				0102B9A320B2078900F5447B /* ListViewController.swift in Sources */,
 				01BF44E020B122BF00894645 /* AppDelegate.swift in Sources */,
 				01BF44E820B122BF00894645 /* Daily_Dhamma.xcdatamodeld in Sources */,
 			);
